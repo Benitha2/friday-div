@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.upper{
+    display: flex;
+    width: 100%;
+    height:50% ;
+}
+.right_u{
+    width: 50%;
+    background-color: green;
+}
+.left_u{
+    width: 50%;
+    background-color: yellow;
+}
+.lower{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.right{
+    display: flex;
+    width: 100%; 
+}
+.right_l{
+    width: 50%;
+    background-color: purple;
+}
+.left_l{
+    width: 50%;
+    background-color: blue;
+}
+.left{
+    width: 100%;
+    background-color: black;
+}
